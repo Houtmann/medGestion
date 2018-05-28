@@ -1,0 +1,15 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+medecin_list:
+    path: /medecins
+    controller: App\Controller\MedecinController::List
+
+patient_list:
+    path: /patients
+    controller: App\Controller\PatientController::List
+
+rdv_list:
+    path: /rdvs
+    controller: App\Controller\RdvController::List

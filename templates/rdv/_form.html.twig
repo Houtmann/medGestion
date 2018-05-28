@@ -1,0 +1,11 @@
+{% form_theme form 'bootstrap_4_layout.html.twig' %}
+
+{{ form_start(form) }}
+    {{ form_widget(form) }}
+    <button class="btn">{{ button_label|default('Enregistrer') }}</button>
+<ul>
+    {% for error in errors %}
+        <li>{{ error.message }}</li>
+    {% endfor %}
+</ul>
+{{ form_end(form) }}

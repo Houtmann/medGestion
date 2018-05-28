@@ -1,0 +1,6 @@
+{% form_theme form 'bootstrap_4_layout.html.twig' %}
+
+{{ form_start(form, {'attr': { 'name':'Ajouter un nouveau Patient' }}) }}
+    {{ form_widget(form) }}
+    <button class="btn">{{ button_label|default('Enregister') }}</button>
+{{ form_end(form) }}
