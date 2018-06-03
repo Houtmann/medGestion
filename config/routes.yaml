@@ -25,3 +25,6 @@ check_path:
 registration:
     path: /registration
     controller: App\Controller\RegistrationController::register
+
+logout:
+    path: /logout
