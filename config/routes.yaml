@@ -13,3 +13,15 @@ patient_list:
 rdv_list:
     path: /rdvs
     controller: App\Controller\RdvController::List
+
+login:
+    path: /login
+    controller: App\Controller\SecurityController::login
+
+check_path:
+    path: /login
+    controller: App\Controller\SecurityController::login
+
+registration:
+    path: /registration
+    controller: App\Controller\RegistrationController::register
